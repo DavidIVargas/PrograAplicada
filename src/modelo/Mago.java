@@ -12,7 +12,6 @@ public class Mago extends Personaje {
     private String tipoEncanto;
 
     public Mago() {
-        // Constructor
     }
 
     public Mago(Mago mago) {
@@ -23,8 +22,6 @@ public class Mago extends Personaje {
     public Personaje clonar() {
         return new Mago(this);
     }
-
-    // Getters y setters
 
     public String getTipoEncanto() {
         return tipoEncanto;

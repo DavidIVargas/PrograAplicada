@@ -20,9 +20,7 @@ public class Aldeano extends Personaje {
     public Personaje clonar() {
         return new Aldeano(this);
     }
-
-    // Getters y setters
-
+    
     public String getNombre() {
         return nombre;
     }

@@ -13,7 +13,6 @@ public class Guerrero extends Personaje {
     private int vidas;
 
     public Guerrero() {
-        // Constructor
     }
 
     public Guerrero(Guerrero guerrero) {

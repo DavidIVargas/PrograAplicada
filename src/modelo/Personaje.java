@@ -3,10 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package modelo;
-
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
  *
  * @author davidvargas

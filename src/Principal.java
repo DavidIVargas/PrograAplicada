@@ -22,7 +22,7 @@ public class Principal {
     public static void main(String[] args) {
         RegistroPersonajes registro = new RegistroPersonajes();
 
-        // Paso 2: Registrar los prototipos
+        //Registrar
         Guerrero guerrero = new Guerrero();
         Mago mago = new Mago();
         Aldeano aldeano = new Aldeano();
@@ -31,12 +31,12 @@ public class Principal {
         registro.registrarPrototipo("mago", mago);
         registro.registrarPrototipo("aldeano", aldeano);
 
-        // Paso 3: Clonar los personajes
+        //Clonar los personajes
         Personaje guerreroClonado = registro.clonarPersonaje("guerrero");
         Personaje magoClonado = registro.clonarPersonaje("mago");
         Personaje aldeanoClonado = registro.clonarPersonaje("aldeano");
 
-        // Paso 4: Imprimir los atributos predefinidos
+        //atributos predefinidos
         System.out.println("\n ** Guerrero **");
         System.out.println("Nombre: " + guerreroClonado.getNombre());
         System.out.println("Nivel: " + guerreroClonado.getNivel());
@@ -57,13 +57,13 @@ public class Principal {
         System.out.println("Habilidades: " + aldeanoClonado.getHabilidades());
         System.out.println("Equipo: " + aldeanoClonado.getEquipo());
         
-        // Paso 5: Modificar atributos
+        //Modificar atributos
         guerreroClonado.setNivel(2);
         guerreroClonado.setHabilidades("Ataque, Defensa");
         ((Guerrero) guerreroClonado).setFuerza(10);
         ((Guerrero) guerreroClonado).setVidas(3);
 
-        // Paso 6: Imprimir los atributos modificados
+        //modificados
         System.out.println("\n ** Guerrero (modificado) **");
         System.out.println("Nombre: " + guerreroClonado.getNombre());
         System.out.println("Nivel: " + guerreroClonado.getNivel());

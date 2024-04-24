@@ -29,6 +29,4 @@ public class RegistroPersonajes {
         }
         return null;
     }
-
-    // Otros métodos para agregar y clonar personajes
 }
