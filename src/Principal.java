@@ -59,10 +59,13 @@ public class Principal {
         
         //Modificar atributos
         guerreroClonado.setNivel(2);
-        guerreroClonado.setHabilidades("Ataque, Defensa");
+        guerreroClonado.setHabilidades("Repliegue, Contraataque");
         ((Guerrero) guerreroClonado).setFuerza(10);
         ((Guerrero) guerreroClonado).setVidas(3);
-
+        
+        magoClonado.setHabilidades("Hechizo de Hielo");
+        magoClonado.setNivel(3);
+        
         //modificados
         System.out.println("\n ** Guerrero (modificado) **");
         System.out.println("Nombre: " + guerreroClonado.getNombre());
